@@ -1,0 +1,11 @@
+.tile{
+	height:10vh;
+	position:absolute;
+	text-align: center;
+    padding-top: 4vh;
+	border:1px solid black;
+}
+.col-md-1{
+	width:15vh;
+	height:15vh;
+}

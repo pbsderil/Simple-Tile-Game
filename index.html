@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="styles/bootstrap.css" rel="stylesheet">
+	<link href="styles/game.css" rel="stylesheet">
+</head>	
+<body>
+	<div class="container">
+		<div class ="row">
+			
+		</div>
+		<div class ="row">
+			<h2>The Game</h2>
+		</div>
+		<div class ="row ">
+			<div class="col-md-5 gameContainer">
+				<div class="row " id="row1">
+					<div class = "col-md-1 tile" id="tile1">1</div>
+				</div>
+			</div>
+			<div class="col-md-2"> <div id="successMsg" style="display:none"><img src="images/Green-Check-Mark.jpg" width=100 height=100 alt="Puzzle solved"/><h4>Puzzle solved</h4></div></div>
+			<div class="col-md-3">
+				<div class="row">
+				<button class="btn btn-primary" onclick ="window.location.reload()">Shuffle</button>
+				<button class="btn btn-primary" onclick ="window.location.reload()">Restart</button>
+					<button class="btn btn-primary" onclick ="solve()">Auto Solve</button>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<script src="scripts/theGame.js"></script>
+</body>
+</html>
